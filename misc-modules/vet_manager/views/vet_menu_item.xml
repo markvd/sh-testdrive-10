@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Top menu item -->
+        
+        <menuitem name="Veterinarians"
+            id="menu_vets"
+            web_icon="vet_manager,static/description/icon.png"
+            sequence="40"/>
+
+        <record id="menu_vets" model="ir.ui.menu">
+            <field name="active" eval="False"/>
+        </record>
+    </data>
+</odoo>
